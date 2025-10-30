@@ -1,0 +1,29 @@
+footer{
+	margin: 50px 0;
+	text-align: center;
+	color:#fff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	background-color: #111;
+	padding: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all ease 0.5s;
+}
+
+footer:hover{
+	color:#46d369;
+}
+
+footer a{
+	color:#fff;
+	text-decoration: none;
+	transition: all ease 0.5s;
+}
+
+footer a:hover{
+	color:#46d369;
+}
+
+

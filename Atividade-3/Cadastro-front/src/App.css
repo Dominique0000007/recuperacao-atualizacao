@@ -1,0 +1,54 @@
+.container {
+    width: 400px;
+    overflow: hidden;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+.form-wrapper {
+    display: flex;
+    width: 800px;
+    transition: transform 0.5s ease;
+}
+
+.form {
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 400px;
+    background: #f7f7f7;
+}
+
+.tela-cadastro {
+    border-right: 1px solid #ccc;
+}
+.login-active {
+    transform: translateX(-400px);
+}
+.link-btn {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+button[type="submit"] {
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
